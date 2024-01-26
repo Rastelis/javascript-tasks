@@ -15,6 +15,8 @@ if (numberThreeTaskThree <= numberOneTaskThree  && numberThreeTaskThree >= numbe
 
 console.log(`Number one is ${numberOneTaskThree}. Number two is ${numberTwoTaskThree}. Number three is ${numberThreeTaskThree}. The middle nuber is ${middleNumber}`);
 
+console.log("***************************************");
+
 function rand(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);

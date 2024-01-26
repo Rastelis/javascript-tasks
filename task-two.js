@@ -16,6 +16,8 @@ else if (numberOneTaskTwo == 0 && numberTwoTaskTwo == 0 ) {
 }
 else console.log("Number one is ${numberOneTaskTwo}. Number two is ${numberTwoTaskTwo}. Divison is infinity") 
 
+console.log("***************************************");
+
 function rand(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);

@@ -5,6 +5,7 @@ let dateNow = [2024, 1, 25];
 let age = calculateAge(dateOfBirth, dateNow);
 
 console.log(`I am ${name} ${surName} my date of birth is ${dateOfBirth} and I am ${age} years old`)
+console.log("***************************************");
 
 function calculateAge(dateOfBirth, dateNow) {
     
