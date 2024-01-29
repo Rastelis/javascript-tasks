@@ -1,16 +1,16 @@
 
 
-let numberArrayTaskEight = fillArrayWithRandomNumbers(50, 0, 100);
+let numberArray = fillArrayWithRandomNumbers(50, 0, 100);
+console.log("********************task<8>*******************");
+// numberArray.forEach(printToConsole);
 
-// numberArrayTaskEight.forEach(printToConsole);
+console.log(`Array average is: ${average(numberArray).toFixed()}`)
 
-console.log(`Array average is: ${average(numberArrayTaskEight).toFixed()}`)
+let modifiedNumberArray = modifyArray(numberArray);
 
-let modifiedNumberArrayTaskEight = modifyArray(numberArrayTaskEight);
-
-// modifiedNumberArrayTaskEight.forEach(printToConsole)
-if (modifiedNumberArrayTaskEight.length == 0) console.log("There are no nubers left after removing all numbers below 10 and above 90 ")
-else console.log(`Modified array average is: ${average(modifiedNumberArrayTaskEight).toFixed()}`)
+// modifiedNumberArray.forEach(printToConsole)
+if (modifiedNumberArray.length == 0) console.log("There are no nubers left after removing all numbers below 10 and above 90 ")
+else console.log(`Modified array average is: ${average(modifiedNumberArray).toFixed()}`)
 
 
 console.log("***************************************");

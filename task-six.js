@@ -1,11 +1,11 @@
-numberArrayTaskSix = [rand(-10, 10), rand(-10, 10), rand(-10, 10)];
+numberArray = [rand(-10, 10), rand(-10, 10), rand(-10, 10)];
 
-numberArrayTaskSix.forEach(printToConsole)
-
+numberArray.forEach(printToConsole)
+console.log("********************task<6>*******************");
 for (let i = 0; i < 3; i++) {
-    if (numberArrayTaskSix[i] < 0) document.write (`<p style="display: inline; color: green;">${numberArrayTaskSix[i]},</p>`);
-    if (numberArrayTaskSix[i] == 0) document.write (`<p style="display: inline; color: red;"> ${numberArrayTaskSix[i]},</p>`);
-    if (numberArrayTaskSix[i] > 0) document.write (`<p style="display: inline; color: blue;"> ${numberArrayTaskSix[i]}</p>`);
+    if (numberArray[i] < 0) document.write (`<p style="display: inline; color: green;">${numberArray[i]},</p>`);
+    if (numberArray[i] == 0) document.write (`<p style="display: inline; color: red;"> ${numberArray[i]},</p>`);
+    if (numberArray[i] > 0) document.write (`<p style="display: inline; color: blue;"> ${numberArray[i]}</p>`);
 }
 
 console.log("***************************************");

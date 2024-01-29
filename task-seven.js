@@ -1,14 +1,14 @@
 
 let candleAmount = rand (5, 3000);
 let totalCost ='';
-
+console.log("********************task<7>*******************");
 console.log (`Generated amount of Candles: ${candleAmount}.`)
 
 if (candleAmount >= 1000) {
-    totalCost = candleAmount - candleAmount * 0.03;
+    totalCost *= .97;
 }
 else if (candleAmount >= 2000) {
-    totalCost = candleAmount - candleAmount * 0.04;
+    totalCost *= .96;
 }
 else totalCost = candleAmount;
 

@@ -1,9 +1,9 @@
 
-let numberOneTaskFive = rand(1, 6);
+numberOne = rand(1, 6);
+console.log("********************task<5>*******************");
+console.log(`Generated nuber is: ${numberOne}`)
 
-console.log(`Generated nuber is: ${numberOneTaskFive}`)
-
-switch (numberOneTaskFive) {
+switch (numberOne) {
     case 1: 
     document.write(`<h1>1</h1>`);
     break;

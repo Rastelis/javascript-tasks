@@ -1,20 +1,23 @@
 
-let numberOneTaskTwo = rand(0,4)
-let numberTwoTaskTwo = rand(0,4)
-let answerTaskTwo;
-if (numberTwoTaskTwo != 0 && numberOneTaskTwo != 0) {
-    if(numberOneTaskTwo < numberTwoTaskTwo) {
-        answerTaskTwo = numberTwoTaskTwo / numberOneTaskTwo;
+ numberOne = rand(0, 4)
+ numberTwo = rand(0, 4)
+let answer;
+
+console.log("********************task<2>*******************");
+
+if (numberTwo != 0 && numberOne != 0) {
+    if (numberOne < numberTwo) {
+        answer = numberTwo / numberOne;
     }
     else {
-        answerTaskTwo = numberOneTaskTwo / numberTwoTaskTwo;
+        answer = numberOne / numberTwo;
     }
-    console.log(`Number one is ${numberOneTaskTwo}. Number two is ${numberTwoTaskTwo}. Division is ${answerTaskTwo}`);
+    console.log(`Number one is ${numberOne}. Number two is ${numberTwo}. Division is ${answer}`);
 }
-else if (numberOneTaskTwo == 0 && numberTwoTaskTwo == 0 ) {
-    console.log(" Number one is ${numberOneTaskTwo}. Number two is ${numberTwoTaskTwo}. Division is 0")
+else if (numberOne == 0 && numberTwo == 0) {
+    console.log(" Number one is ${numberOne }. Number two is ${numberTwo }. Division is 0")
 }
-else console.log("Number one is ${numberOneTaskTwo}. Number two is ${numberTwoTaskTwo}. Divison is infinity") 
+else console.log("Number one is ${numberOne }. Number two is ${numberTwo }. Divison is infinity")
 
 console.log("***************************************");
 
